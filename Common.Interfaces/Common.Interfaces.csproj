@@ -39,6 +39,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CQRS\ICommand.cs" />
+    <Compile Include="CQRS\ICommandHandler.cs" />
+    <Compile Include="CQRS\ICommandQueryDispatcher.cs" />
+    <Compile Include="CQRS\IQuery.cs" />
+    <Compile Include="CQRS\IQueryHandler.cs" />
+    <Compile Include="DDD\IAggregate.cs" />
+    <Compile Include="DDD\IAggregateFactory.cs" />
+    <Compile Include="DDD\IAggregateRepository.cs" />
+    <Compile Include="EventSourcing\IDomainEvent.cs" />
+    <Compile Include="EventSourcing\IEventSourcedAggregate.cs" />
+    <Compile Include="EventSourcing\IEventSourcedAggregateFactory.cs" />
+    <Compile Include="EventSourcing\IEventSourcedAggregateRepository.cs" />
     <Compile Include="Logging\ILogger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
